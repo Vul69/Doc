@@ -1,4 +1,4 @@
 name =input("Please input your name\n")
 print("your name is", len(name), "characters long")
 for i in range(len(name)):
-    print(name[i], ".", end=" ")
+    print(name[i],".",end=" ")
