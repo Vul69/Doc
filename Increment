@@ -1,0 +1,8 @@
+C = 5
+def incrementbyC(num):
+    return num + C
+def updateC(a):
+    return a + C
+
+print("The incremented number is:", incrementbyC(10))
+print("The incremented number is:", updateC(100)+incrementbyC(10))
