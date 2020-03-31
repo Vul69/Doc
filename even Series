@@ -1,0 +1,13 @@
+def print_even(s=1, e=10):
+    for i in range(s,e):
+        if i %2==0:
+            print(i, ",", end=" ")
+    print("\n")
+print("The series is:")
+print_even()
+print("The series is:")
+print_even(0)
+print("The series is:")
+print_even(10, 100)
+print("the series is:")
+print_even(e=100)
